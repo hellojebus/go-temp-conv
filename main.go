@@ -1,4 +1,4 @@
-//handles conversions between Celsius and Fahrenheit
+// Package go_temp_conv handles conversions between Celsius and Fahrenheit, this is a doc comment
 package go_temp_conv
 
 //create custom types to prevent erroneous
