@@ -1,4 +1,5 @@
-package main
+//handles conversions between Celsius and Fahrenheit
+package go_temp_conv
 
 type Celsius float64
 type Fahrenheit float64
@@ -11,12 +12,4 @@ const (
 
 func main(){
 
-}
-
-func CtoF(c Celsius) Fahrenheit {
-	return Fahrenheit(c * 9 / 5 + 32)
-}
-
-func FtoC(f Fahrenheit) Celsius {
-	return Celsius((f - 32) * 5 / 9)
 }
